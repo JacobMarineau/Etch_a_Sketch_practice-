@@ -9,12 +9,13 @@ function createSquareDivs(numSquares) {
     });
   }
 }
-function resetSketch () {
-    const squares = document.querySelectorAll(".square");
-        squares.forEach(square => {
-            square.style.backgroundcolor= 'black';
-        })
-    }))
-
+function resetSketch() {
+  const squares = document.querySelectorAll(".square");
+  squares.forEach((square) => {
+    square.style.backgroundColor = "black";
+  });
 }
+const resetBtn = document.getElementById("resetBtn");
+resetBtn.addEventListener("click", resetSketch);
+
 createSquareDivs(256);
