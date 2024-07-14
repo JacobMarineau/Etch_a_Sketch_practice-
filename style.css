@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 930px;
+  }
+  .square {
+    width: 2.8em;
+    height: 2.8em;
+    background-color: black;
+    color: red;
+    margin: 5px;
+  }
+.headingBtn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btnStyle {
+    font-size: 32px;
+    background-color: blueviolet;
+    color: whitesmoke;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}

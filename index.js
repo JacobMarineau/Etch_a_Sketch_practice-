@@ -4,6 +4,15 @@ function createSquareDivs(numSquares) {
     const squareDiv = document.createElement("div");
     squareDiv.classList.add("square");
     container.appendChild(squareDiv);
+    squareDiv.addEventListener("mouseover", function () {
+      squareDiv.style.backgroundColor = "blueviolet";
+    });
   }
 }
-createSquareDivs(16);
+function resetSketch () {
+    if (btn.addEventListener("click", function () {
+        squareDiv.style.backgroundColor = "black";
+    }))
+
+}
+createSquareDivs(256);
