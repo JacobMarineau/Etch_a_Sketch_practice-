@@ -10,8 +10,10 @@ function createSquareDivs(numSquares) {
   }
 }
 function resetSketch () {
-    if (btn.addEventListener("click", function () {
-        squareDiv.style.backgroundColor = "black";
+    const squares = document.querySelectorAll(".square");
+        squares.forEach(square => {
+            square.style.backgroundcolor(= 'black')
+        })
     }))
 
 }
