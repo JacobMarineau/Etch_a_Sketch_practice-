@@ -12,7 +12,7 @@ function createSquareDivs(numSquares) {
 function resetSketch () {
     const squares = document.querySelectorAll(".square");
         squares.forEach(square => {
-            square.style.backgroundcolor(= 'black')
+            square.style.backgroundcolor= 'black';
         })
     }))
 
